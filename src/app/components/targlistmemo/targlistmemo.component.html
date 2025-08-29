@@ -1,0 +1,18 @@
+ <ion-item>
+     
+        <!--  -->
+    <ion-thumbnail slot="start">
+      <img
+        class=""
+        [src]="memoInfo().photo"
+        alt="Exterior photo of {{ memoInfo().name }}"
+        crossorigin
+      />
+    </ion-thumbnail>
+    <ion-label>
+      <h2 class="">{{ memoInfo().name }}</h2>
+      <a [routerLink]="['/details', memoInfo().id]">Learn More</a>
+      <!-- <ion-button fill="clear">Action 1</ion-button> -->
+    </ion-label>     
+
+ </ion-item>

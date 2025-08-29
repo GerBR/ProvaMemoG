@@ -1,0 +1,12 @@
+<!-- <p>memospaint works!</p> -->
+<section class="listing">
+      <img
+        class="listing-photo"
+        [src]="memoInfo().photo"
+        alt="Exterior photo of {{ memoInfo().name }}"
+        crossorigin
+      />
+      <h2 class="listing-heading">{{ memoInfo().name }}</h2>
+      <p class="listing-location">{{ memoInfo().city }}, {{ memoInfo().state }}</p>
+      <a [routerLink]="['/details', memoInfo().id]">Learn More</a>
+    </section>

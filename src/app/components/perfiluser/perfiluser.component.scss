@@ -1,0 +1,38 @@
+// PER FOTO USUARI
+#contenidorPerfilUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#fotoAvatar {
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: teal;
+  overflow: hidden;
+  border: 6px solid orange;
+}
+#fotoAvatar img {
+  width: 100%;
+}
+
+// PER ION ITEM
+
+#contenidorPerfilUser ion-item{
+    width: 100%;
+    text-align: center;
+}
+
+// PER explorar organitzar Biblioteca
+
+#contenidorPerfilUser + div{
+  margin: 10px;
+//   background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

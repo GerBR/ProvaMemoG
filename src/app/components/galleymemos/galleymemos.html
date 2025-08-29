@@ -1,0 +1,19 @@
+<p>galleymemos works!</p>
+    <section>
+      <form>
+        <input type="text" placeholder="Filter by city" />
+        <button class="primary" type="button">Search</button>
+      </form>
+    </section>
+    
+<ion-grid [fixed]="true">
+  <ion-row>
+
+    
+      @for( memoInfo of memoInfoList; track $index) {
+        <app-gridbases [memoInfo]="memoInfo"></app-gridbases>
+      }
+  
+
+  </ion-row> 
+</ion-grid>
