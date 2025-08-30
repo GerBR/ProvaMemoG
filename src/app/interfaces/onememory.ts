@@ -7,4 +7,5 @@ export interface OneMemoryInfo {
   availableUnits: number;
   wifi: boolean;
   laundry: boolean;
+  description: string;
 }

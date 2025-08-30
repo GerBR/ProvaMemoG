@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IonItem, IonLabel, IonChip, IonIcon, IonAvatar } from '@ionic/angular/standalone';
+import { IonItem, IonLabel, IonChip, IonIcon, IonAvatar, IonNote, IonToggle } from '@ionic/angular/standalone';
 // import { GridbasesComponent } from '../gridbases/gridbases.component';
 
 import { addIcons } from 'ionicons';
@@ -10,7 +10,7 @@ import { alarm, heart, dice } from 'ionicons/icons';
   selector: 'app-perfiluser',
   templateUrl: './perfiluser.component.html',
   styleUrls: ['./perfiluser.component.scss'],
-   imports: [IonItem, IonLabel, IonChip, IonAvatar, IonIcon,
+   imports: [IonToggle, IonNote, IonItem, IonLabel, IonChip, IonAvatar, IonIcon,
     ],
 })
 export class PerfiluserComponent  implements OnInit {

@@ -1,0 +1,17 @@
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" size-xs="6" size-sm="3" *ngFor="let memory of memoryList">
+        <ion-card>
+          <!-- <img [src]="memory.photo" alt="{{ memory.name }}" /> -->
+          <div class="square-imag minMemoImg" [style.backgroundImage]="'url(' + memory.photo + ')'"> </div>
+          <ion-card-header>
+            <ion-card-title>{{ memory.name }}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>{{ memory.description }}</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>

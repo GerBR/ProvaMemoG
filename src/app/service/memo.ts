@@ -22,6 +22,7 @@ export class MemoService {
       availableUnits: 4,
       wifi: true,
       laundry: true,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       id: 1,
@@ -32,6 +33,7 @@ export class MemoService {
       availableUnits: 0,
       wifi: false,
       laundry: true,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       id: 2,
@@ -42,6 +44,7 @@ export class MemoService {
       availableUnits: 1,
       wifi: false,
       laundry: false,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       id: 3,
@@ -52,6 +55,7 @@ export class MemoService {
       availableUnits: 1,
       wifi: true,
       laundry: false,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       id: 4,
@@ -62,6 +66,7 @@ export class MemoService {
       availableUnits: 1,
       wifi: true,
       laundry: false,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       id: 5,
@@ -72,6 +77,7 @@ export class MemoService {
       availableUnits: 2,
       wifi: true,
       laundry: true,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       id: 6,
@@ -82,6 +88,7 @@ export class MemoService {
       availableUnits: 5,
       wifi: true,
       laundry: true,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       id: 7,
@@ -92,6 +99,7 @@ export class MemoService {
       availableUnits: 2,
       wifi: true,
       laundry: true,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       id: 8,
@@ -102,6 +110,7 @@ export class MemoService {
       availableUnits: 10,
       wifi: false,
       laundry: false,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       id: 9,
@@ -112,6 +121,7 @@ export class MemoService {
       availableUnits: 6,
       wifi: true,
       laundry: true,
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
   ];
   
