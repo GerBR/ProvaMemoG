@@ -23,10 +23,9 @@ export const routes: Routes = [
             path: '', // Ruta per defecte per a /tabs/tab1
             loadComponent: () => import('../tab3/tab3.page').then((m) => m.Tab3Page),
           },
-          {
-            path: 'details/:id', // La nova ruta secundària
-            loadComponent: () => import('../components/memodetalls/memodetalls').then((m) => m.Memodetalls),
-          },
+          
+
+        
         ],
       },
       {

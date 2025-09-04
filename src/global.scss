@@ -35,3 +35,16 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+
+/////////////////////////////////////////////////
+//  Modificacions de estils globals de la app
+ion-title.titletab {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #3880ff; /* Primary color */
+  text-align: left;
+  padding:  0 1em;
+  width: 100%;
+  text-transform: uppercase;
+}

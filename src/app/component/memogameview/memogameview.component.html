@@ -1,0 +1,29 @@
+<ion-content>
+  <article>
+    <div class="titolMemoImg" [style.backgroundImage]="'url(' + memory?.photo + ')'"> </div>
+    <h1>{{ memory?.name }}</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laudantium assumenda nesciunt doloribus modi magni quae id repudiandae quidem tempore nobis quam ex cumque, doloremque ipsum. Odit qui laborum earum.</p>
+    <ion-list>
+      <ion-item>
+        <ion-toggle>Default Toggle</ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-badge slot="start">11</ion-badge>
+        <ion-label>{{ memory?.city }}</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-badge slot="end">{{ memory?.state }}</ion-badge>
+        <ion-label>peces disponibles</ion-label>
+      </ion-item>
+      <ion-item>
+      <ion-badge slot="end">{{ memory?.availableUnits }}</ion-badge>
+      <ion-label>followers</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>{{ memory?.wifi }}</ion-label>
+      </ion-item>
+    </ion-list>
+  </article> 
+  <app-mostrapecesmemo [memoryId]="memory?.id"></app-mostrapecesmemo>
+  
+</ion-content>

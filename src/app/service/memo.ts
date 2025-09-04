@@ -5,20 +5,16 @@ import { OneMemoryInfo } from '../interfaces/onememory';
   providedIn: 'root'
 })
 
-
-
 export class MemoService {
   
   //per afinar la ruta path de les imatges 
-  //  readonly baseUrl = 'https://angular.dev/assets/imatges/tutorials/common';
-
   protected memoInfoList: OneMemoryInfo[] = [
     {
       id: 0,
       name: 'Acme Fresh Start Housing',
       city: 'Chicago',
       state: 'IL',
-      photo: `assets/imatges/im_01.jpg`,
+      photo: `assets/imatges/nino01.jpg`,
       availableUnits: 4,
       wifi: true,
       laundry: true,
@@ -29,7 +25,7 @@ export class MemoService {
       name: 'A113 Transitional Housing',
       city: 'Santa Monica',
       state: 'CA',
-       photo: `assets/imatges/im_02.jpg`,
+       photo: `assets/imatges/AnimalsCap_min06.jpg`,
       availableUnits: 0,
       wifi: false,
       laundry: true,
@@ -40,7 +36,7 @@ export class MemoService {
       name: 'Warm Beds Housing Support',
       city: 'Juneau',
       state: 'AK',
-       photo: `assets/imatges/im_03.jpg`,
+       photo: `assets/imatges/ram_05.jpg`,
       availableUnits: 1,
       wifi: false,
       laundry: false,

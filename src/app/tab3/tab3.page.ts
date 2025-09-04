@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
 import { PerfiluserComponent } from '../components/perfiluser/perfiluser.component';
-// import { Galleymemos } from '../components/galleymemos/galleymemos';
 import { RouterOutlet } from '@angular/router';
 
 import { MemoGridComp } from '../component/memogrid/memogrid.component';
@@ -14,7 +13,6 @@ import { MemoGridComp } from '../component/memogrid/memogrid.component';
     PerfiluserComponent,
     RouterOutlet,
     MemoGridComp,
-    //  Galleymemos,
   ],
 })
 export class Tab3Page {

@@ -1,0 +1,16 @@
+ <h2>Peces de Joc</h2>
+  <ion-grid>
+    <ion-row>
+    <!-- Aquest bucle ara funciona perquè 'memoryImgList' té les dades del servei -->
+    
+      @for (path of selectedMemory?.imagePaths; track path) {
+        <ion-col size="12" size-xs="3" size-sm="2"  [style.backgroundImage]="'url(../assets/' +path + ')'">
+          <!-- <img [src]="'../assets/' + path" alt="Peça del memory" /> -->
+        </ion-col>
+      }
+    
+   
+
+
+    </ion-row>
+  </ion-grid>
