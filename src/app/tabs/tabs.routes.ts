@@ -23,9 +23,6 @@ export const routes: Routes = [
             path: '', // Ruta per defecte per a /tabs/tab1
             loadComponent: () => import('../tab3/tab3.page').then((m) => m.Tab3Page),
           },
-          
-
-        
         ],
       },
       {
@@ -34,10 +31,5 @@ export const routes: Routes = [
         pathMatch: 'full',
       },
     ],
-  },
-  {
-    path: '',
-    redirectTo: '/tabs/tab1',
-    pathMatch: 'full',
   },
 ];
